@@ -1,0 +1,5 @@
+IF DB_ID('VocabDB') IS NULL
+    CREATE DATABASE VocabDB;
+GO
+USE VocabDB;
+GO
