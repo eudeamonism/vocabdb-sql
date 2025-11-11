@@ -1,0 +1,1 @@
+SELECT dbo.fn_Suffix('education', 4) AS SuffixResult;
