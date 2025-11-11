@@ -20,7 +20,8 @@ RETURN
         w.Word,
         w.WordLength,     -- your persisted computed column
         w.SortedWord,
-        w.CreatedAt
+        w.CreatedAt,
+        w.Category
     FROM dbo.Words AS w
     WHERE w.WordLength BETWEEN @MinLen AND @MaxLen
 );

@@ -5,8 +5,6 @@ The project loads 10,000 English words into SQL Server, cleans and structures th
 
 ## Notes
 
-## Chapter 3.2
-
 ### Function Types
 
 | Type Code | Meaning                               | Appears Under           |
@@ -17,6 +15,4 @@ The project loads 10,000 English words into SQL Server, cleans and structures th
 | `P`       | Stored procedure                      | Stored Procedures       |
 | `V`       | View                                  | Views                   |
 
-## Chapter 3.3
 
-### Scalar Functions
