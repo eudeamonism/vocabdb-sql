@@ -1,0 +1,8 @@
+USE VocabDB;
+GO
+
+SET STATISTICS IO, TIME ON;
+
+SELECT * FROM dbo.Words_Nullable;
+
+SET STATISTICS IO, TIME OFF;
